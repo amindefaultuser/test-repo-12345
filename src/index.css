@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  z-index: auto !important;
+}
+
+
+
+.centerfy {
+  position: absolute;
+  left: 55%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.spiner {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  animation: anim-spin 1s infinite ease;
+}
+
+.spiner:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  border-top: solid 10px #d1cac0;
+  border-right: solid 10px transparent;
+  border-bottom: solid 10px #d1cac0;
+  border-left: solid 10px transparent;
+  border-radius: 100%;  
+}
+
+@keyframes anim-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+

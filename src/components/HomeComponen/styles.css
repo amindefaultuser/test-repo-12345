@@ -1,0 +1,25 @@
+.assets-swiper {
+    padding: 1vw;
+    margin: -1vw;
+}
+
+.assets-swiper .swiper-pagination {
+    bottom: -1vw !important;
+}
+
+.assets-swiper .swiper-pagination-bullet {
+    width: 0.4vw;
+    height: 0.4vw;
+    background: #4AB094;
+    opacity: 0.3;
+}
+
+.assets-swiper .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #4AB094;
+}
+
+.swiper-button-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
