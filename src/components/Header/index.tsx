@@ -65,7 +65,7 @@ const Header = () => {
     }, []);
 
     return (
-        <div className="sm:bg-white ">
+        <div className="sm:bg-white  ">
             <div className="flex justify-between ">
                 <div className="flex flex-col justify-between ls:space-x-[1.111vw] sm:hidden">
                     <span className="text-[2.679vw] ls:!text-[3.844vw] font-black  text-[#2e2e2e]">{location.pathname === "/" ? "Overview" : location.pathname === "/payment" ? "Payment" : location.pathname === "/balance" ? "Balance" : location.pathname === "/history" ? "History" : location.pathname === "/transfer" ? "Transfer" : location.pathname === "/support" ? "Support Center" : location.pathname === "/profile" ? "Profile" : location.pathname === "/refferals" ? "Referrals" : ""}</span>

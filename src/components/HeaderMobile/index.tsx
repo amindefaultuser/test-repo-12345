@@ -21,7 +21,7 @@ const HeaderMobile = () => {
     };
 
     return (
-        <div className='bg-[#ffffff]  relative'>
+        <div className='bg-[#ffffff] relative shadow-[0_4px_20px_rgba(0,0,0,0.1)] border-b border-[rgba(74,176,148,0.1)]'>
             <div className="py-[2.333vw] px-[4.513vw] w-full sm:flex items-center justify-between hidden">
                 <div className="flex items-center">
                     <img src={Logo} alt="Logo" className="w-[20.441vw]" />

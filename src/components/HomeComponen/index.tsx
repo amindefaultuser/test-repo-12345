@@ -254,7 +254,7 @@ const HomeComponent = () => {
                         </div>
 
                     </div>
-                    <div style={{ height: '40vh', background: 'rgba(55, 109, 71, 0.2)' }} className="rounded-xl p-2 shadow-lg transition-all duration-500 ease-in-out max-w-[60vw] sm:!max-w-[100vw]">
+                    <div style={{  background: 'rgba(55, 109, 71, 0.2)' }} className="rounded-xl p-2 shadow-lg transition-all duration-500 ease-in-out max-w-[60vw] sm:!h-[30vh] !h-[40vh] sm:!max-w-[100vw]">
                         <div className="space-y-[0.5vw] mb-[1vw]">
                             <p className="text-[2.1vw] m-0 pl-[0.5vw] sm:text-[5vw] font-bold text-black">
                                 ${totalBalance.toLocaleString()}
@@ -424,7 +424,7 @@ const HomeComponent = () => {
                         {cardItems.map((item) => (
                             <SwiperSlide key={item.title}>
                                 <div
-                                    className={`rounded-xl h-[19vw] sm:h-[45vw] w-[calc(100%-0.1vw)] sm:w-[30vw] p-[1vw] sm:p-[3vw] shadow-md `}
+                                    className={`rounded-xl h-[19vw] sm:h-[45vw] w-[calc(100%-0.1vw)] sm:w-[47vw] p-[1vw] sm:p-[3vw] shadow-md `}
                                     style={{ borderLeft: `4px solid ${item.color}`, background: item.bg }}
                                 >
                                     <div className="flex items-center justify-end mb-[1vw]">
